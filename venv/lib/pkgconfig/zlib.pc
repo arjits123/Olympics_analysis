@@ -1,0 +1,13 @@
+prefix=/Users/arjitsharma/Olympics/venv
+exec_prefix=/Users/arjitsharma/Olympics/venv
+libdir=/Users/arjitsharma/Olympics/venv/lib
+sharedlibdir=/Users/arjitsharma/Olympics/venv/lib
+includedir=/Users/arjitsharma/Olympics/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
